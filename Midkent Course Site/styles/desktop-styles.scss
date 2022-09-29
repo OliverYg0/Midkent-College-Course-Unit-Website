@@ -1,0 +1,13 @@
+@media screen and (min-width: 1080px) {
+    .nav-toggle {
+        display: none;
+    }
+    .nav-items {
+        width: 40%;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: var(--header-height);
+    }
+}
